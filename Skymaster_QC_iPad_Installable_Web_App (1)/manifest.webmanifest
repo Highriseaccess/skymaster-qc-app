@@ -1,0 +1,25 @@
+{
+  "name": "Skymaster Quality Control",
+  "short_name": "Skymaster QC",
+  "description": "Skymaster fabrication QC inspections for pedestal and tie-back / HLL supports",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f6f9",
+  "theme_color": "#17354b",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
