@@ -1,5 +1,5 @@
 // Skymaster QC offline cache — version 5
-const CACHE='skymaster-qc-offline-v5';
+const CACHE='skymaster-qc-offline-v6';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));
